@@ -73,7 +73,7 @@ class Store {
 
         books.forEach((book,index)=> {
             if(book.isbn===isbn){
-                book.splice(index, 1);
+                books.splice(index, 1);
             }
         });
         localStorage.setItem('books', JSON.stringify(books));
