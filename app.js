@@ -76,7 +76,7 @@ class Store {
                 book.splice(index, 1);
             }
         });
-        localStorage,setItem('books', JSON.stringify(books));
+        localStorage.setItem('books', JSON.stringify(books));
     }
 }
 //Event: Display Books
